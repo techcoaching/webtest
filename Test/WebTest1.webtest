@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="bc86a79f-e02c-47b0-b1f7-fe21df4ad0af" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
+  <Items>
+    <IncludedWebTest Name="students_login" Path="students_login.webtest" Id="7121bbf1-cb72-45d2-bc81-2f37c7ba5442" IsCodedWebTest="False" InheritWebTestSettings="False" />
+  </Items>
+</WebTest>

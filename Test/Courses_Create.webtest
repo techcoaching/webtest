@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="Courses_Create" Id="3758e09e-12bd-496f-918c-7ae92fefe4c3" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
+  <Items>
+    <Request Method="POST" Guid="b866116f-f06e-4c43-883d-3517da8bcde9" Version="1.1" Url="http://api.tinyerp.com/api/courses" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <RequestPlugins>
+        <RequestPlugin Classname="Plugin.Common.Plugin.AuthorizationExtractionWebTestPlugin, Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="AuthorizationExtractionWebTestPlugin" Description="">
+          <RuleParameters>
+            <RuleParameter Name="IsSetAuthorizationHeader" Value="True" />
+            <RuleParameter Name="AuthHeaderName" Value="" />
+          </RuleParameters>
+        </RequestPlugin>
+      </RequestPlugins>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">ewAiAHQAaQB0AGwAZQAiADoAIgBDAG8AdQByAHMAZQAgAHsAewBTAGMAcgBpAHAAdAAhACEAUwB0AGEAdABpAGMATQBlAHQAaABvAGQAIQAhAEEAcABwAC4AQwBvAG0AbQBvAG4ALgBIAGUAbABwAGUAcgBzAC4ARwB1AGkAZABIAGUAbABwAGUAcgAhACEAQwByAGUAYQB0AGUATgBlAHcAfQB9ACIALAAgACIAcwB1AGIAVABpAHQAbABlACIAOgAiAFMAdQBiAHQAaQB0AGwAZQAgADEAIgAsACAAIgBkAGUAcwBjAHIAaQBwAHQAaQBvAG4AIgA6ACIATABvAHIAZQBtACAASQBwAHMAdQBtACAAaQBzACAAcwBpAG0AcABsAHkAIABkAHUAbQBtAHkAIAB0AGUAeAB0ACAAbwBmACAAdABoAGUAIABwAHIAaQBuAHQAaQBuAGcAIABhAG4AZAAgAHQAeQBwAGUAcwBlAHQAdABpAG4AZwAgAGkAbgBkAHUAcwB0AHIAeQAuACAATABvAHIAZQBtACAASQBwAHMAdQBtACAAaABhAHMAIABiAGUAZQBuACAAdABoAGUAIABpAG4AZAB1AHMAdAByAHkAJwBzACAAcwB0AGEAbgBkAGEAcgBkACAAZAB1AG0AbQB5ACAAdABlAHgAdAAgAGUAdgBlAHIAIABzAGkAbgBjAGUAIAB0AGgAZQAgADEANQAwADAAcwAsACAAdwBoAGUAbgAgAGEAbgAgAHUAbgBrAG4AbwB3AG4AIABwAHIAaQBuAHQAZQByACAAdABvAG8AawAgAGEAIABnAGEAbABsAGUAeQAgAG8AZgAgAHQAeQBwAGUAIABhAG4AZAAgAHMAYwByAGEAbQBiAGwAZQBkACAAaQB0ACAAdABvACAAbQBhAGsAZQAgAGEAIAB0AHkAcABlACAAcwBwAGUAYwBpAG0AZQBuACAAYgBvAG8AawAuACAASQB0ACAAaABhAHMAIABzAHUAcgB2AGkAdgBlAGQAIABuAG8AdAAgAG8AbgBsAHkAIABmAGkAdgBlACAAYwBlAG4AdAB1AHIAaQBlAHMALAAgAGIAdQB0ACAAYQBsAHMAbwAgAHQAaABlACAAbABlAGEAcAAgAGkAbgB0AG8AIABlAGwAZQBjAHQAcgBvAG4AaQBjACAAdAB5AHAAZQBzAGUAdAB0AGkAbgBnACwAIAByAGUAbQBhAGkAbgBpAG4AZwAgAGUAcwBzAGUAbgB0AGkAYQBsAGwAeQAgAHUAbgBjAGgAYQBuAGcAZQBkAC4AIABJAHQAIAB3AGEAcwAgAHAAbwBwAHUAbABhAHIAaQBzAGUAZAAgAGkAbgAgAHQAaABlACAAMQA5ADYAMABzACAAdwBpAHQAaAAgAHQAaABlACAAcgBlAGwAZQBhAHMAZQAgAG8AZgAgAEwAZQB0AHIAYQBzAGUAdAAgAHMAaABlAGUAdABzACAAYwBvAG4AdABhAGkAbgBpAG4AZwAgAEwAbwByAGUAbQAgAEkAcABzAHUAbQAgAHAAYQBzAHMAYQBnAGUAcwAsACAAYQBuAGQAIABtAG8AcgBlACAAcgBlAGMAZQBuAHQAbAB5ACAAdwBpAHQAaAAgAGQAZQBzAGsAdABvAHAAIABwAHUAYgBsAGkAcwBoAGkAbgBnACAAcwBvAGYAdAB3AGEAcgBlACAAbABpAGsAZQAgAEEAbABkAHUAcwAgAFAAYQBnAGUATQBhAGsAZQByACAAaQBuAGMAbAB1AGQAaQBuAGcAIAB2AGUAcgBzAGkAbwBuAHMAIABvAGYAIABMAG8AcgBlAG0AIABJAHAAcwB1AG0ALgAiAH0A</StringHttpBody>
+    </Request>
+  </Items>
+</WebTest>
